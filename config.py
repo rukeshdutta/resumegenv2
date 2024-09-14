@@ -1,8 +1,8 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# # Load environment variables from .env file
+# load_dotenv()
 
 # Get Anthropic API key from environment variable
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
